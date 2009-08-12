@@ -1,0 +1,27 @@
+<h1>Listing tickets for <%= params[:search_string] %></h1>
+
+ <% @tickets = Ticket.find_all_by_name(params[:search_string])| Ticket.find_all_by_seat_id(params[:search_string]) %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Matrix</th>
+    <th>Email</th>
+  </tr>
+
+<% for ticket in @tickets %>
+  <tr>
+    <td><%=h ticket.name %></td>
+    <td><%=h ticket.seat_id %></td>
+    <td><%=h ticket.address %></td>
+    <td><%=h ticket.price %></td>
+    <td><%=h ticket.email %></td>
+    <td><%= link_to 'Show', ticket %></td>
+    <td><%= link_to 'Edit', edit_ticket_path(ticket) %></td>
+    <td><%= link_to 'Destroy', ticket, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<td><%= link_to 'Back', tickets_path %></td>
+

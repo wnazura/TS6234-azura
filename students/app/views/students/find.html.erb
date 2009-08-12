@@ -1,0 +1,25 @@
+<h1>Listing students for <%= params[:search_string] %></h1>
+
+ <% @students = Student.find_all_by_name(params[:search_string])| Student.find_all_by_matrix(params[:search_string]) %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Matrix</th>
+    <th>Email</th>
+  </tr>
+
+<% for student in @students %>
+  <tr>
+    <td><%=h student.name %></td>
+    <td><%=h student.matrix %></td>
+    <td><%=h student.email %></td>
+    <td><%= link_to 'Show', student %></td>
+    <td><%= link_to 'Edit', edit_student_path(student) %></td>
+    <td><%= link_to 'Destroy', student, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<td><%= link_to 'Back', students_path %></td>
+

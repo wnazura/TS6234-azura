@@ -1,0 +1,2815 @@
+/!\ FAILSAFE /!\  Mon Jul 20 01:12:11 +0800 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStudents (20090719171908)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "matrix" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090719171908')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("students")[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-20 01:19:59) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 3385ms (View: 3369, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-20 01:20:08) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-20 01:21:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"s05kVvV/eH6AZ6LCq2pvm+Q2sR5R+vAImFQwhkWOtgQ=", "student"=>{"name"=>"abdul hadi", "matrix"=>"P50057", "email"=>"hadi@ftsm.ukm.my"}}
+  [4;35;1mStudent Create (0.0ms)[0m   [0mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('abdul hadi', 'P50057', '2009-07-19 17:21:30', 'hadi@ftsm.ukm.my', '2009-07-19 17:21:30')[0m
+Redirected to http://127.0.0.1:3000/students/1
+Completed in 203ms (DB: 0) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-20 01:21:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 1) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 29ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/students/1]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-20 01:21:37) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-20 01:21:42) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-20 01:21:46) [GET]
+  [4;36;1mStudent Load (15.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-20 01:21:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 1) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/1]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-20 01:24:16) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-20 01:24:19) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-20 01:24:51) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"s05kVvV/eH6AZ6LCq2pvm+Q2sR5R+vAImFQwhkWOtgQ=", "student"=>{"name"=>"azura kamarudin", "matrix"=>"P47005", "email"=>"azura@ftsm.ukm.my"}}
+  [4;35;1mStudent Create (0.0ms)[0m   [0mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('azura kamarudin', 'P47005', '2009-07-19 17:24:51', 'azura@ftsm.ukm.my', '2009-07-19 17:24:51')[0m
+Redirected to http://127.0.0.1:3000/students/2
+Completed in 31ms (DB: 0) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-20 01:24:52) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 2) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/2]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-20 01:24:57) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-20 01:25:01) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 2) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/2]
+
+
+Processing StudentsController#edit (for 127.0.0.1 at 2009-07-20 01:25:07) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 2) [0m
+Rendering template within layouts/students
+Rendering students/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/2/edit]
+
+
+Processing StudentsController#update (for 127.0.0.1 at 2009-07-20 01:25:22) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"s05kVvV/eH6AZ6LCq2pvm+Q2sR5R+vAImFQwhkWOtgQ=", "id"=>"2", "student"=>{"name"=>"azura kamarudin", "matrix"=>"P47015", "email"=>"azura@ftsm.ukm.my"}}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 2) [0m
+  [4;35;1mStudent Update (16.0ms)[0m   [0mUPDATE "students" SET "matrix" = 'P47015', "updated_at" = '2009-07-19 17:25:22' WHERE "id" = 2[0m
+Redirected to http://127.0.0.1:3000/students/2
+Completed in 31ms (DB: 16) | 302 Found [http://127.0.0.1/students/2]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-20 01:25:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 2) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/2]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-20 01:25:25) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-20 01:25:27) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 2) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/2]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-20 02:12:29) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 07:59:34) [GET]
+  [4;36;1mStudent Load (15.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 8003ms (View: 7940, DB: 15) | 200 OK [http://127.0.0.1/students]
+
+
+Processing ClientWorkoutsController#index (for 127.0.0.1 at 2009-07-27 10:01:16) [GET]
+
+NameError (uninitialized constant ClientWorkoutsController::ClientWorkout):
+  app/controllers/client_workouts_controller.rb:5:in `index'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 10:06:12) [GET]
+  [4;36;1mStudent Load (31.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 927ms (View: 896, DB: 31) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 10:09:56) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 109ms (View: 93, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 10:09:57) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 10:09:58) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 10:32:25) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 10:32:33) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSQLite3::SQLException: no such column: client_name: SELECT * FROM "students" WHERE (client_name = 'azura kamarudin' OR trainer = 'azura kamarudin') [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: client_name: SELECT * FROM "students" WHERE (client_name = 'azura kamarudin' OR trainer = 'azura kamarudin') ):
+  app/controllers/students_controller.rb:87:in `find'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 10:35:04) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'azura kamarudin' OR matrix = 'azura kamarudin') [0m
+
+ActionView::MissingTemplate (Missing template students/find.erb in view path app/views):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 10:35:10) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 10:35:20) [POST]
+  Parameters: {"search_string"=>"P47015", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+
+ActionView::MissingTemplate (Missing template students/find.erb in view path app/views):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 10:43:22) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 10:43:29) [POST]
+  Parameters: {"search_string"=>"P47015", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+
+ActionView::MissingTemplate (Missing template students/find.erb in view path app/views):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 11:19:14) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 11:19:31) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+
+NameError (undefined local variable or method `search_string' for #<StudentsController:0x3b0211c>):
+  app/controllers/students_controller.rb:89:in `find'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 11:23:52) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 11:23:58) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+
+ActionView::MissingTemplate (Missing template students/find.erb in view path app/views):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 11:45:50) [GET]
+  [4;35;1mStudent Load (16.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 11:45:58) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>Matrix No.</th>
+7:   </tr>
+8: 
+9: <% for student in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 11:47:10) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 11:47:21) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for students in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (162.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 11:49:14) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 11:49:20) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"c1mgBTHGCGFboqdnwYGqCdh+tOnD1egfrN2FIkotgqk="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for student in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (173.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 16:46:50) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 3385ms (View: 3370, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 16:46:59) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura kamarudin' OR matrix = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+ERROR: compiling _run_erb_app47views47students47find46html46erb RAISED compile error
+C:/Ruby/students/app/views/students/find.html.erb:9: dynamic constant assignment
+ for Student in @students ; @output_buffer.concat "\n"
+               ^
+Function body:           def _run_erb_app47views47students47find46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing client_workouts for "; @output_buffer.concat(( params[:search_string] ).to_s); @output_buffer.concat "</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<table>\n"
+@output_buffer.concat "  <tr>\n"
+@output_buffer.concat "    <th>student</th>\n"
+@output_buffer.concat "    <th>matrix</th>\n"
+@output_buffer.concat "  </tr>\n"
+@output_buffer.concat "\n"
+ for Student in @students ; @output_buffer.concat "\n"
+@output_buffer.concat "  <tr>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h student.name ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h student.matrix ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Show', student ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Edit', edit_student_path(student) ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Destroy', student, :confirm => 'Are you sure?', :method => :delete ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "  </tr>\n"
+ end ; @output_buffer.concat "\n"
+@output_buffer.concat "</table>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Ruby/students/app/views/students/find.html.erb:21:in `compile!'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Ruby/students/app/views/students/find.html.erb:9: dynamic constant assignment
+ for Student in @students ; @output_buffer.concat "\n"
+               ^) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for Student in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:21:in `compile!'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (177.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 16:51:42) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 16:51:46) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura kamarudin' OR matrix = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for student in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:02:35) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:02:45) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/students/find.html.erb:
+7:     <th>email</th>
+8:   </tr>
+9: 
+10: <% for student in @students %>
+11:   <tr>
+12:     <td><%=h student.name %></td>
+13:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:10
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (74.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:03:06) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:03:19) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura kamarudin' OR matrix = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/students/find.html.erb:
+7:     <th>email</th>
+8:   </tr>
+9: 
+10: <% for student in @students %>
+11:   <tr>
+12:     <td><%=h student.name %></td>
+13:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:10
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (68.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:05:03) [GET]
+  [4;36;1mStudent Load (16.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:05:09) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+
+ActiveRecord::PreparedStatementInvalid (wrong number of bind variables (2 for 3) in: name = ? OR matrix = ? OR email = ?):
+  app/controllers/students_controller.rb:87:in `find'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (173.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:09:28) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:09:35) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/students/find.html.erb:
+7:     <th>email</th>
+8:   </tr>
+9: 
+10: <% for student in @students %>
+11:   <tr>
+12:     <td><%=h student.name %></td>
+13:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:10
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:14:29) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:14:34) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'azura kamarudin' OR matrix = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for student in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:15:31) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:15:36) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for students in @students %>
+10:   <tr>
+11:     <td><%=h students.name %></td>
+12:     <td><%=h students.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (66.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:16:23) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:16:29) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for students in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (159.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:31:25) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:31:30) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'azura kamarudin' OR matrix = 'azura kamarudin') [0m
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for students in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (179.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:32:49) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:32:53) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for student in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:33:58) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 110ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:34:02) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/students/find.html.erb:
+6:     <th>matrix</th>
+7:   </tr>
+8: 
+9: <% for student.name in @students %>
+10:   <tr>
+11:     <td><%=h student.name %></td>
+12:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:9
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:37:01) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:37:06) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+  [4;36;1mStudent Load (78.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Completed in 125ms (View: 15, DB: 78) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:56:45) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:57:12) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:57:19) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:57:55) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 17:58:03) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abdul hadi' OR matrix = 'abdul hadi') [0m
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 17:58:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 1) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/1]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:59:00) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-27 17:59:14) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-27 17:59:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw=", "student"=>{"name"=>"aliff quiban", "matrix"=>"P40803", "email"=>"aliffq@yahoo.com"}}
+  [4;35;1mStudent Create (31.0ms)[0m   [0mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('aliff quiban', 'P40803', '2009-07-27 09:59:54', 'aliffq@yahoo.com', '2009-07-27 09:59:54')[0m
+Redirected to http://127.0.0.1:3000/students/3
+Completed in 198ms (DB: 31) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 17:59:55) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 3) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/3]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 17:59:57) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-27 18:00:00) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-27 18:00:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw=", "student"=>{"name"=>"abbas quiban", "matrix"=>"P41910", "email"=>"abbasq@yahoo.com"}}
+  [4;36;1mStudent Create (0.0ms)[0m   [0;1mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('abbas quiban', 'P41910', '2009-07-27 10:00:21', 'abbasq@yahoo.com', '2009-07-27 10:00:21')[0m
+Redirected to http://127.0.0.1:3000/students/4
+Completed in 140ms (DB: 0) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 18:00:21) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mStudent Load (1.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 4) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/students/4]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:00:23) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:00:33) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (16.0ms)[0m   [0mSELECT * FROM "students" [0m
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:05:31) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:05:36) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = NULL OR matrix = NULL) [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" IS NULL) [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:05:46) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = NULL OR matrix = NULL) [0m
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" IS NULL) [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:10:53) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:11:10) [POST]
+  Parameters: {"search_string"=>"abbas", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'abbas') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:13:23) [POST]
+  Parameters: {"search_string"=>"abbas quiban", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" IS NULL) [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:15:37) [POST]
+  Parameters: {"search_string"=>"abbas quiban", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" IS NULL) [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abbas quiban') [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:16:40) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 'P47015') [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:16:46) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:16:52) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 'P47015') [0m
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:17:01) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:17:46) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:17:53) [POST]
+  Parameters: {"search_string"=>"P50057", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 18:17:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 1) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/1]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:18:59) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:19:04) [POST]
+  Parameters: {"search_string"=>"P50057", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:19:09) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:19:51) [GET]
+  [4;35;1mStudent Load (16.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:19:57) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'P47015') [0m
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:19:59) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:21:24) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 18:21:30) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'P47015') [0m
+Completed in 46ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 18:21:32) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:09:45) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 3385ms (View: 3370, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-27 19:09:52) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-27 19:10:51) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "student"=>{"name"=>"azura wan nor", "matrix"=>"P47900", "email"=>"azurawn@yahoo.com"}}
+  [4;35;1mStudent Create (0.0ms)[0m   [0mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('azura wan nor', 'P47900', '2009-07-27 11:10:51', 'azurawn@yahoo.com', '2009-07-27 11:10:51')[0m
+Redirected to http://127.0.0.1:3000/students/5
+Completed in 124ms (DB: 0) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 19:10:52) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mStudent Load (1.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 5) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 29ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/students/5]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:10:54) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:11:00) [POST]
+  Parameters: {"search_string"=>"azura", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura') [0m
+Completed in 94ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:21:18) [GET]
+  [4;36;1mStudent Load (15.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:21:24) [POST]
+  Parameters: {"search_string"=>"P50057", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'P50057' OR matrix = 'P50057') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:23:35) [GET]
+  [4;35;1mStudent Load (16.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-27 19:23:47) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-27 19:24:29) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "student"=>{"name"=>"azura wan nor", "matrix"=>"P47900", "email"=>"azurawn@ftsm.ukm.my"}}
+  [4;36;1mStudent Create (0.0ms)[0m   [0;1mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('azura wan nor', 'P47900', '2009-07-27 11:24:29', 'azurawn@ftsm.ukm.my', '2009-07-27 11:24:29')[0m
+Redirected to http://127.0.0.1:3000/students/6
+Completed in 47ms (DB: 0) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 19:24:29) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 6) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 77ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/students/6]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:24:42) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:24:46) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:25:00) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:25:03) [GET]
+  [4;35;1mStudent Load (15.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:25:19) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:25:24) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:25:27) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 110ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#edit (for 127.0.0.1 at 2009-07-27 19:25:36) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 5) [0m
+Rendering template within layouts/students
+Rendering students/edit
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/students/5/edit]
+
+
+Processing StudentsController#update (for 127.0.0.1 at 2009-07-27 19:25:40) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "id"=>"5", "student"=>{"name"=>"azura wan nor", "matrix"=>"P47901", "email"=>"azurawn@yahoo.com"}}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 5) [0m
+  [4;36;1mStudent Update (31.0ms)[0m   [0;1mUPDATE "students" SET "matrix" = 'P47901', "updated_at" = '2009-07-27 11:25:40' WHERE "id" = 5[0m
+Redirected to http://127.0.0.1:3000/students/5
+Completed in 78ms (DB: 31) | 302 Found [http://127.0.0.1/students/5]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 19:25:40) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 5) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 20ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/students/5]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:25:43) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:25:48) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:25:53) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#destroy (for 127.0.0.1 at 2009-07-27 19:25:59) [DELETE]
+  Parameters: {"authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "id"=>"5"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 5) [0m
+  [4;35;1mStudent Destroy (0.0ms)[0m   [0mDELETE FROM "students" WHERE "id" = 5[0m
+Redirected to http://127.0.0.1:3000/students
+Completed in 31ms (DB: 0) | 302 Found [http://127.0.0.1/students/5]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:25:59) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:26:05) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:27:17) [GET]
+  [4;35;1mStudent Load (16.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 19:27:21) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 19:29:36) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:28:42) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:28:48) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 0) [0m
+
+ActionView::TemplateError (Couldn't find Student with ID=P47015) on line #3 of app/views/students/find.html.erb:
+1: <h1>Listing students for <%= params[:search_string] %></h1>
+2: 
+3: <% @students = Student.find(params[:search_string]) %>
+4: <table>
+5:   <tr>
+6:     <th>Name</th>
+
+    app/views/students/find.html.erb:3
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (116.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:41:51) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:41:56) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:42:18) [POST]
+  Parameters: {"search_string"=>"aliff quiban", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'aliff quiban' OR matrix = 'aliff quiban') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (15.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 31ms (View: 0, DB: 15) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:42:20) [POST]
+  Parameters: {"search_string"=>"", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = '' OR matrix = '') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:42:22) [POST]
+  Parameters: {"search_string"=>"", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (15.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = '' OR matrix = '') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 20:43:25) [GET]
+
+SyntaxError (C:/Ruby/students/app/controllers/students_controller.rb:89: syntax error, unexpected '\n', expecting kDO_BLOCK):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:44:11) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:44:17) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:44:24) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:45:07) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:45:11) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = '--- :search_string
+') [0m
+
+ActionView::TemplateError (Couldn't find Student with ID=search_string) on line #3 of app/views/students/find.html.erb:
+1: <h1>Listing students for <%= params[:search_string] %></h1>
+2: 
+3: <% @students = Student.find(:search_string) %>
+4: <table>
+5:   <tr>
+6:     <th>Name</th>
+
+    app/views/students/find.html.erb:3
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 20:46:44) [GET]
+
+SyntaxError (C:/Ruby/students/app/controllers/students_controller.rb:90: syntax error, unexpected tCONSTANT, expecting kEND
+...rix(params[:search_string]) OR Student.find_all_by_matrix(pa...
+                              ^):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 20:48:59) [GET]
+
+SyntaxError (C:/Ruby/students/app/controllers/students_controller.rb:90: syntax error, unexpected tCONSTANT, expecting ']'
+...rix(params[:search_string]) OR Student.find_all_by_matrix(pa...
+                              ^
+C:/Ruby/students/app/controllers/students_controller.rb:90: syntax error, unexpected ']', expecting kEND):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:49:54) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:50:00) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'P47015') [0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:50:10) [POST]
+  Parameters: {"search_string"=>"abbas quiban", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'abbas quiban') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'abbas quiban') [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:52:52) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:52:56) [POST]
+  Parameters: {"search_string"=>"P50057", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'P50057' OR matrix = 'P50057') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #14 of app/views/students/find.html.erb:
+11:     <th>Email</th>
+12:   </tr>
+13: 
+14: <% for student in @students %>
+15:   <tr>
+16:     <td><%=h student.name %></td>
+17:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:14
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (83.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:55:14) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:55:19) [POST]
+  Parameters: {"search_string"=>"P50057", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 20:58:41) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 20:58:46) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `find_all_by_name_or_matrix' for #<Class:0x5e44a58>):
+  app/controllers/students_controller.rb:90:in `find'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 21:03:18) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 21:03:22) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+
+NameError (undefined local variable or method `name' for #<StudentsController:0x4a42b90>):
+  app/controllers/students_controller.rb:90:in `find'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 21:04:53) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 21:04:58) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 21:14:52) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 21:14:58) [POST]
+  Parameters: {"search_string"=>"abbas quiban", "commit"=>"Search", "authenticity_token"=>"H+cfa6R+pm2Usr+jzmPL5GUtVyIzyIyrj+Z9Jpey6Lw="}
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `find_all_by_name_or_matrix' for #<Class:0x4a67d3c>):
+  app/controllers/students_controller.rb:90:in `find'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 21:17:33) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 21:18:03) [POST]
+  Parameters: {"search_string"=>"abbas quiban", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abbas quiban') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 21:19:03) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-27 21:19:07) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abdul hadi') [0m
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-27 21:19:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 1) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/1]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-27 21:19:22) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 12:20:53) [GET]
+  [4;35;1mStudent Load (15.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 12:20:58) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'P47015') [0m
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 12:22:22) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 12:22:32) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #13 of app/views/students/find.html.erb:
+10:     <th>Email</th>
+11:   </tr>
+12: 
+13: <% for student in @students %>
+14:   <tr>
+15:     <td><%=h student.name %></td>
+16:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:13
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 12:26:07) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 12:26:11) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 12:26:16) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 12:29:48) [POST]
+  Parameters: {"search_string"=>"abbas quiban", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abbas quiban' OR matrix = 'abbas quiban') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'abbas quiban' OR matrix = 'abbas quiban') [0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 12:32:45) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 12:32:49) [POST]
+  Parameters: {"search_string"=>"P47015", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'P47015' OR matrix = 'P47015') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mSQL (16.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `find_by_name_or_matrix' for #<Class:0x5da3ec8>) on line #3 of app/views/students/find.html.erb:
+1: <h1>Listing students for <%= params[:search_string] %></h1>
+2: 
+3: <% @students = Student.find_by_name_or_matrix(params[:search_string]) %>
+4: 
+5: <table>
+6:   <tr>
+
+    app/views/students/find.html.erb:3
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (52.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:04:23) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:04:34) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:24:15) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:24:22) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #11 of app/views/students/find.html.erb:
+8:     <th>Email</th>
+9:   </tr>
+10: 
+11: <% for student in @students %>
+12:   <tr>
+13:     <td><%=h student.name %></td>
+14:     <td><%=h student.matrix %></td>
+
+    app/views/students/find.html.erb:11
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (171.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:25:37) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:25:43) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:29:10) [GET]
+  [4;36;1mStudent Load (15.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:29:16) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE (name = 'azura wan nor' OR matrix = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (undefined local variable or method `student' for #<ActionView::Base:0x4b1ca98>) on line #3 of app/views/students/find.html.erb:
+1: <h1>Listing students for <%= params[:search_string] %></h1>
+2: 
+3:  <% @students = student.find_all_by_name_or_matrix(params[:search_string, :search_string])%>
+4: 
+5: <table>
+6:   <tr>
+
+    app/views/students/find.html.erb:3
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:32:30) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:32:35) [POST]
+  Parameters: {"search_string"=>"abdul hadi", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abdul hadi') [0m
+Rendering template within layouts/students
+Rendering students/find
+
+ActionView::TemplateError (undefined local variable or method `student' for #<ActionView::Base:0x5c1a5fc>) on line #3 of app/views/students/find.html.erb:
+1: <h1>Listing students for <%= params[:search_string] %></h1>
+2: 
+3:  <% @students = student.find_all_by_name(params[:search_string])%>
+4: 
+5: <table>
+6:   <tr>
+
+    app/views/students/find.html.erb:3
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:36:10) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:36:14) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:37:56) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:38:01) [POST]
+  Parameters: {"search_string"=>"azura kamarudin", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura kamarudin') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura kamarudin') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura kamarudin') [0m
+Completed in 140ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:38:08) [POST]
+  Parameters: {"search_string"=>"P50057", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'P50057') [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'P50057') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'P50057') [0m
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:38:51) [GET]
+  [4;35;1mStudent Load (15.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-28 13:39:06) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-28 13:39:28) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "student"=>{"name"=>"azura wan nor", "matrix"=>"P45004", "email"=>"azurawn@ftsm.ukm.my"}}
+  [4;36;1mStudent Create (0.0ms)[0m   [0;1mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('azura wan nor', 'P45004', '2009-07-28 05:39:28', 'azurawn@ftsm.ukm.my', '2009-07-28 05:39:28')[0m
+Redirected to http://127.0.0.1:3000/students/7
+Completed in 47ms (DB: 0) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-28 13:39:29) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 7) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/7]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:39:30) [GET]
+  [4;36;1mStudent Load (15.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:39:35) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:39:42) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#edit (for 127.0.0.1 at 2009-07-28 13:39:46) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 7) [0m
+Rendering template within layouts/students
+Rendering students/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/7/edit]
+
+
+Processing StudentsController#update (for 127.0.0.1 at 2009-07-28 13:39:54) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "id"=>"7", "student"=>{"name"=>"azura wan nor", "matrix"=>"P45004", "email"=>"azurawn@yahoo.com"}}
+  [4;35;1mStudent Load (16.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 7) [0m
+  [4;36;1mStudent Update (15.0ms)[0m   [0;1mUPDATE "students" SET "email" = 'azurawn@yahoo.com', "updated_at" = '2009-07-28 05:39:54' WHERE "id" = 7[0m
+Redirected to http://127.0.0.1:3000/students/7
+Completed in 47ms (DB: 31) | 302 Found [http://127.0.0.1/students/7]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-28 13:39:54) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 7) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/7]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:39:56) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:40:04) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 125ms (View: 78, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:40:12) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:40:22) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:40:25) [POST]
+  Parameters: {"search_string"=>"abbas quiban", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abbas quiban') [0m
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'abbas quiban') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'abbas quiban') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'abbas quiban') [0m
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 13:40:36) [POST]
+  Parameters: {"search_string"=>"aliff quiban", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'aliff quiban') [0m
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'aliff quiban') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."name" = 'aliff quiban') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."matrix" = 'aliff quiban') [0m
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 13:40:38) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 14:37:12) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `validate_presence_of' for #<Class:0x3d89e94>):
+  app/models/student.rb:2
+  app/controllers/students_controller.rb:5:in `index'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (74.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 14:37:45) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-28 14:37:50) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-28 14:38:50) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "student"=>{"name"=>"john doe", "matrix"=>"", "email"=>"johndoe@johndoe.com"}}
+Rendering template within layouts/students
+Rendering students/new
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#create (for 127.0.0.1 at 2009-07-28 14:41:22) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "student"=>{"name"=>"john doe", "matrix"=>"P40101", "email"=>"johndoe@johndoe.com"}}
+  [4;36;1mStudent Create (0.0ms)[0m   [0;1mINSERT INTO "students" ("name", "matrix", "updated_at", "email", "created_at") VALUES('john doe', 'P40101', '2009-07-28 06:41:22', 'johndoe@johndoe.com', '2009-07-28 06:41:22')[0m
+Redirected to http://127.0.0.1:3000/students/8
+Completed in 125ms (DB: 0) | 302 Found [http://127.0.0.1/students]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-28 14:41:22) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mStudent Load (1.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 8) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 22ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/students/8]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 14:41:25) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#edit (for 127.0.0.1 at 2009-07-28 15:10:13) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."id" = 8) [0m
+Rendering template within layouts/students
+Rendering students/edit
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/8/edit]
+
+
+Processing StudentsController#update (for 127.0.0.1 at 2009-07-28 15:10:22) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "id"=>"8", "student"=>{"name"=>"john doe", "matrix"=>"P50057", "email"=>"johndoe@johndoe.com"}}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 8) [0m
+  [4;35;1mStudent Exists (0.0ms)[0m   [0mSELECT "students".id FROM "students" WHERE ("students"."matrix" = 'P50057' AND "students".id <> 8) LIMIT 1[0m
+Rendering template within layouts/students
+Rendering students/edit
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/8]
+
+
+Processing StudentsController#update (for 127.0.0.1 at 2009-07-28 15:10:31) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo=", "id"=>"8", "student"=>{"name"=>"john doe", "matrix"=>"P40101", "email"=>"johndoe@johndoe.com"}}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 8) [0m
+  [4;35;1mStudent Exists (0.0ms)[0m   [0mSELECT "students".id FROM "students" WHERE ("students"."matrix" = 'P40101' AND "students".id <> 8) LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/students/8
+Completed in 15ms (DB: 0) | 302 Found [http://127.0.0.1/students/8]
+
+
+Processing StudentsController#show (for 127.0.0.1 at 2009-07-28 15:10:31) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."id" = 8) [0m
+Rendering template within layouts/students
+Rendering students/show
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/students/8]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 15:10:33) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-28 16:56:55) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 16:57:02) [GET]
+  [4;36;1mStudent Load (16.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 62ms (View: 15, DB: 16) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#new (for 127.0.0.1 at 2009-07-28 16:57:52) [GET]
+Rendering template within layouts/students
+Rendering students/new
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/students/new]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 16:57:55) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 19:10:20) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 19:12:30) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#find (for 127.0.0.1 at 2009-07-28 19:12:36) [POST]
+  Parameters: {"search_string"=>"azura wan nor", "commit"=>"Search", "authenticity_token"=>"l0abcx6gDlYxtx6fkKAoFiuvuGQgb2K151q4zK2XjDo="}
+  [4;35;1mStudent Load (15.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Rendering template within layouts/students
+Rendering students/find
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "students" WHERE ("students"."name" = 'azura wan nor') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "students" WHERE ("students"."matrix" = 'azura wan nor') [0m
+Completed in 94ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/students/find]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 21:13:16) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 21:15:45) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/students/]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 22:32:07) [GET]
+  [4;36;1mStudent Load (0.0ms)[0m   [0;1mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 3363ms (View: 3347, DB: 0) | 200 OK [http://127.0.0.1/students]
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-07-28 22:32:10) [GET]
+  [4;35;1mStudent Load (0.0ms)[0m   [0mSELECT * FROM "students" [0m
+Rendering template within layouts/students
+Rendering students/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/students]
