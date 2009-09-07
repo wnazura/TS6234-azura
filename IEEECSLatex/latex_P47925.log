@@ -1,0 +1,285 @@
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.8.13)  7 SEP 2009 13:43
+entering extended mode
+**latex_P47925.tex
+(latex_P47925.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2008-06-18, ngerman-x-2008-06-18, french, loaded.
+(IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+-- Using IEEE Computer Society mode.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count90
+\@IEEEtranrubishbin=\box26
+) ("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.7\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+("C:\Program Files\MiKTeX 2.7\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(latex_P47925.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+ ("C:\Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen119
+\scratchbox=\box27
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen120
+\MPnumerator=\count96
+\everyMPtoPDFconversion=\toks17
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 400.
+
+ ("C:\Program Files\MiKTeX 2.7\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 400.
+
+Underfull \hbox (badness 2261) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 shown with the use of an on-tol-ogy for In-for-ma-tion
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 in-clude terms such as threats, vul-ner-a-bil-i-ties, at-tacks,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--442
+
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 be-tween them. The de-tailed de-scrip-tion of a con-cept
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 decision-making and problem-solving tasks. The Web
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--442
+
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 This pa-per is or-gan-ised as fol-lows. The first sec-tion
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 an In-for-ma-tion Se-cu-rity On-tol-ogy. The tools used in
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 for de-vel-op-ing, query-ing or rea-son-ing an In-for-ma-tion
+ []
+
+[1{C:/ProgramData/MiKTeX/2.7/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 2726) in paragraph at lines 460--464
+\OT1/ptm/m/n/10 se-cu-rity in-ci-dent han-dling. "A com-mon lan-guage for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--464
+
+ []
+
+<sec-relationships.jpg, id=8, 573.64313pt x 280.04625pt>
+File: sec-relationships.jpg Graphic file (type jpg)
+
+<use sec-relationships.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 476--479
+
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 476--479
+\OT1/ptm/m/n/10 method-ol-ogy is to build an on-tol-ogy by a group of
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 476--479
+\OT1/ptm/m/n/10 ev-ery it-er-a-tion. In [7], the on-tol-ogy was con-structed
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 476--479
+\OT1/ptm/m/n/10 method-ol-ogy as well as the on-tol-ogy de-sign cri-te-ria
+ []
+
+[2 <sec-relationships.jpg>]
+<fire-threat.jpg, id=13, 605.26125pt x 236.38312pt>
+File: fire-threat.jpg Graphic file (type jpg)
+ <use fire-threat.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 504--508
+
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 504--508
+\OT1/ptm/m/n/10 for-mal-ized in [6] through the use of an In-for-ma-tion
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 504--508
+\OT1/ptm/m/n/10 the vul-ner-a-bil-ity on-tol-ogy in [8]. [9] com-pre-hen-sively
+
+ []
+
+<ovm.jpg, id=14, 575.14874pt x 456.95718pt>
+File: ovm.jpg Graphic file (type jpg)
+ <use ovm.jpg> [3 <fire-threat.jpg> <ovm.jpg>]
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[4] (latex_P47925.aux) ) 
+Here is how much of TeX's memory you used:
+ 1649 strings out of 95304
+ 25180 string characters out of 1183070
+ 80438 words of memory out of 1500000
+ 4888 multiletter control sequences out of 110000
+ 37529 words of font info for 67 fonts, out of 3000000 for 5000
+ 17 hyphenation exceptions out of 8191
+ 26i,8n,21p,1307b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.7/fonts/enc/dvips/fontname/8
+r.enc}<C:/Program Files/MiKTeX 2.7/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Prog
+ram Files/MiKTeX 2.7/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 
+2.7/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on latex_P47925.pdf (4 pages, 206502 bytes).
+PDF statistics:
+ 35 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
