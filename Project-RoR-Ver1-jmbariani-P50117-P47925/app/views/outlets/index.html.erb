@@ -1,0 +1,22 @@
+<h1>Listing outlets</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Address</th>
+  </tr>
+
+<% @outlets.each do |outlet| %>
+  <tr>
+    <td><%=h outlet.title %></td>
+    <td><%=h outlet.address %></td>
+    <td><%= link_to 'Show', outlet %></td>
+    <td><%= link_to 'Edit', edit_outlet_path(outlet) %></td>
+    <td><%= link_to 'Destroy', outlet, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New outlet', new_outlet_path %>

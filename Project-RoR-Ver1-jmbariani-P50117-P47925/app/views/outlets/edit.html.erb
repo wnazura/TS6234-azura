@@ -1,0 +1,21 @@
+<h1>Editing outlet</h1>
+
+<% form_for(@outlet) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
+  </p>
+  <p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @outlet %> |
+<%= link_to 'Back', outlets_path %>

@@ -1,0 +1,24 @@
+<h1>New outlet</h1>
+
+<% form_for(@outlet, :html => { :multipart => true}) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
+  </p>
+
+<p>
+    <%= f.label :image %><br />
+    <%= file_field_tag :file_data %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', outlets_path %>

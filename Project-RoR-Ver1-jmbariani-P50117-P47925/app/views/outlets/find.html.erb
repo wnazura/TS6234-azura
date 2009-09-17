@@ -1,0 +1,22 @@
+<h1>Listing outlets for <%= params[:search_string] %></h1>
+
+ <% @outlets = Outlet.find_all_by_outlet_name(params[:search_string]) %>
+
+<table>
+  <tr>
+    <th>Outlet Name</th>
+    <th>Image</th>
+  </tr>
+
+<% for outlet in @outlets %>
+  <tr>
+    <td><%=h outlet.outlet_name %></td>
+    <td><%= link_to 'Show', outlet %></td>
+    <td><%= link_to 'Edit', edit_outlet_path(outlet) %></td>
+    <td><%= link_to 'Destroy', outlet, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<td><%= link_to 'Back', outlets_path %></td>
+
