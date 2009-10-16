@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.8.13)  7 SEP 2009 13:43
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.8.13)  11 OCT 2009 16:42
 entering extended mode
 **latex_P47925.tex
 (latex_P47925.tex
@@ -165,13 +165,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--442
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 435--442
-\OT1/ptm/m/n/10 be-tween them. The de-tailed de-scrip-tion of a con-cept
- []
-
-
-Underfull \hbox (badness 2903) in paragraph at lines 435--442
-\OT1/ptm/m/n/10 decision-making and problem-solving tasks. The Web
+Underfull \hbox (badness 1584) in paragraph at lines 435--442
+\OT1/ptm/m/n/10 the struc-ture of in-for-ma-tion among peo-ple, to en-able
  []
 
 
@@ -198,60 +193,96 @@ Underfull \hbox (badness 2073) in paragraph at lines 435--442
 
 
 ]
-Underfull \hbox (badness 2726) in paragraph at lines 460--464
+<ont-types.jpg, id=8, 263.48438pt x 171.64125pt>
+File: ont-types.jpg Graphic file (type jpg)
+ <use ont-types.jpg>
+Underfull \hbox (badness 1688) in paragraph at lines 465--469
+\OT1/ptm/m/n/10 to other con-cepts with "is-a" or "has-a" re-la-tion-ship.
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 465--469
+\OT1/ptm/m/n/10 in [4] or sub-ontologies from dif-fer-ent per-spec-tives
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--469
+
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 471--475
 \OT1/ptm/m/n/10 se-cu-rity in-ci-dent han-dling. "A com-mon lan-guage for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--464
+Underfull \hbox (badness 10000) in paragraph at lines 471--475
 
  []
 
-<sec-relationships.jpg, id=8, 573.64313pt x 280.04625pt>
+<sec-relationships.jpg, id=9, 573.64313pt x 280.04625pt>
 File: sec-relationships.jpg Graphic file (type jpg)
 
 <use sec-relationships.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 476--479
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
 
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 476--479
+Underfull \hbox (badness 1552) in paragraph at lines 487--490
 \OT1/ptm/m/n/10 method-ol-ogy is to build an on-tol-ogy by a group of
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 476--479
+Underfull \hbox (badness 2318) in paragraph at lines 487--490
 \OT1/ptm/m/n/10 ev-ery it-er-a-tion. In [7], the on-tol-ogy was con-structed
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 476--479
+Underfull \hbox (badness 2452) in paragraph at lines 487--490
 \OT1/ptm/m/n/10 method-ol-ogy as well as the on-tol-ogy de-sign cri-te-ria
  []
 
-[2 <sec-relationships.jpg>]
-<fire-threat.jpg, id=13, 605.26125pt x 236.38312pt>
+[2 <ont-types.jpg> <sec-relationships.jpg>]
+<IS-sources.jpg, id=14, 297.36093pt x 197.98969pt>
+File: IS-sources.jpg Graphic file (type jpg)
+ <use IS-sources.jpg>
+<fire-threat.jpg, id=15, 605.26125pt x 236.38312pt>
 File: fire-threat.jpg Graphic file (type jpg)
  <use fire-threat.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 504--508
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
 
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 504--508
-\OT1/ptm/m/n/10 for-mal-ized in [6] through the use of an In-for-ma-tion
+Underfull \hbox (badness 3657) in paragraph at lines 524--528
+\OT1/ptm/m/n/10 A few ex-am-ples of the ap-pli-ca-tions of In-for-ma-tion
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 504--508
+Underfull \hbox (badness 2368) in paragraph at lines 524--528
+\OT1/ptm/m/n/10 con-trols to pro-vide cus-tomised and fo-cused so-lu-tions
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 524--528
+\OT1/ptm/m/n/10 a broad area of in-for-ma-tion se-cu-rity risk as-sess-ment.
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 524--528
 \OT1/ptm/m/n/10 the vul-ner-a-bil-ity on-tol-ogy in [8]. [9] com-pre-hen-sively
 
  []
 
-<ovm.jpg, id=14, 575.14874pt x 456.95718pt>
+[3 <IS-sources.jpg> <fire-threat.jpg>]
+<ovm.jpg, id=19, 575.14874pt x 456.95718pt>
 File: ovm.jpg Graphic file (type jpg)
- <use ovm.jpg> [3 <fire-threat.jpg> <ovm.jpg>]
+ <use ovm.jpg>
+<DiagraphISOntology.jpg, id=20, 610.53094pt x 398.99063pt>
+File: DiagraphISOntology.jpg Graphic file (type jpg)
+
+<use DiagraphISOntology.jpg> [4 <ovm.jpg> <DiagraphISOntology.jpg>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -263,23 +294,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (latex_P47925.aux) ) 
+[5] (latex_P47925.aux) ) 
 Here is how much of TeX's memory you used:
- 1649 strings out of 95304
- 25180 string characters out of 1183070
- 80438 words of memory out of 1500000
- 4888 multiletter control sequences out of 110000
+ 1667 strings out of 95304
+ 25525 string characters out of 1183070
+ 81462 words of memory out of 1500000
+ 4903 multiletter control sequences out of 110000
  37529 words of font info for 67 fonts, out of 3000000 for 5000
  17 hyphenation exceptions out of 8191
- 26i,8n,21p,1307b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,8n,21p,1571b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.7/fonts/enc/dvips/fontname/8
 r.enc}<C:/Program Files/MiKTeX 2.7/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Prog
 ram Files/MiKTeX 2.7/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 
 2.7/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on latex_P47925.pdf (4 pages, 206502 bytes).
+Output written on latex_P47925.pdf (5 pages, 289323 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
