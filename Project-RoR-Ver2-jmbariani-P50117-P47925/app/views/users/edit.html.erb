@@ -1,0 +1,32 @@
+<h1>Editing user</h1>
+
+<% form_for(@user) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+<p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+<p>
+    *<%= f.label :level %><br />
+    <%= f.text_field :level %>
+  </p>
+<br/>  
+<p>
+ <%=link_to 'Change Password', :action => 'change_password', :id => @user%>
+</p>
+<br/>  
+  <p>
+
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+<br/>
+*1 = Admin <br/>
+
+
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,16 @@
+<p>
+  <b>Title:</b>
+  <%=h @outlet.title %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @outlet.address %>
+</p>
+
+<%if !@outlet.image.nil?%>
+<%=image_tag @outlet.image.id.to_s+'-'+@outlet.image.extension%>
+<%end%>
+
+<%= link_to 'Edit', edit_outlet_path(@outlet) %> |
+<%= link_to 'Back', outlets_path %>

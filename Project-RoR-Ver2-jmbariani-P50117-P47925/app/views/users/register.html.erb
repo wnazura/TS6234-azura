@@ -1,0 +1,11 @@
+<%=error_messages_for 'user'%>
+<% form_for :user do |form| %>
+Email : <%= form.text_field :email, :size => 30 %> <br/>
+Password : <%= form.password_field :password, :size => 30 %> <br/>
+Confirm : <%= form.password_field :password_confirmation, :size => 30 %> <br/>
+Name : <%= form.text_field :name, :size => 30 %> <br/>
+
+<%= submit_tag "Submit Registration" %> <br/>
+      <%=link_to "Already have an account? Login here", :action => 'login'%>
+               
+<%end%>

@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JM Bariani House</title>
+<%=stylesheet_link_tag "styles"%>
+</head>
+
+<body>
+	<div id="mainframe">
+		<div id="header">
+        	<%=link_to image_tag("nav1.jpg"), :controller => 'restaurants',:action => 'jmbriani'%><%=link_to image_tag("nav2.jpg"),  :controller => 'restaurants',:action => 'menu'%><%=link_to image_tag("nav3.jpg"),  :controller => 'restaurants',:action => 'outlets'%><%=link_to image_tag("nav4.jpg"),  :controller => 'restaurants',:action => 'exposure'%><%=link_to image_tag("nav5.jpg"),  :controller => 'restaurants',:action => 'contact'%><%if !session[:user].nil?%><%=link_to image_tag("nav7.jpg"), :controller => 'users',:action => 'logout'%><%=link_to image_tag("headeradmin.jpg"), :action => 'index'%><%else%><%=link_to image_tag("header.jpg"), :action => 'index'%><%end%>
+	
+<div id="contentleftcenter">	
+<%if !session[:user].nil?%> Hello <%=session[:user_name]%>!<%end%>
+
+
+<%=yield%>
+<br />
+<p style="color: yellow"><%= flash[:notice] %></p>
+</div>
+</body>
+</html>

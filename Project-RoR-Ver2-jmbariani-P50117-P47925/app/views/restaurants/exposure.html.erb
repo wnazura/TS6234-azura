@@ -1,0 +1,20 @@
+<div id="contentlefttop"><%=image_tag "header_exposure.jpg", :border => 0%></div>
+<div id="contentleftcenter" style="padding-left:0px">
+				<iframe src="/restaurants/show_exposure/" height="283" width="656" scrolling="yes" frameborder="0" allowtransparency="yes" name="menuwindow"></iframe>
+			</div>
+		
+		
+			<div id="contentleftbottom" style="height:20px"><span class="bhead" style="font-size:20px">JM BARIANI MEDIA</span></div>
+ 
+
+
+
+			<%@exposures.each do |exposure|%>
+        <div id="menulist">
+        	<div id="menulistblocks">	<%=link_to exposure.media_name, {:action => 'show_exposure', :id => exposure.id}, :target => 'menuwindow'%>
+				</div>
+        </div><%end%>
+       
+		</div><!-- Close contentLeft --->
+    	<div id="contentright"><%=image_tag "exposure_pic.jpg", :border => 0%></div>
+	</div><!-- Close mainFrame --->

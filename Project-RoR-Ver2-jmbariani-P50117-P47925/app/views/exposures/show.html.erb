@@ -1,0 +1,16 @@
+<p>
+  <b>Media Name:</b>
+  <%=h @exposure.media_name %>
+</p>
+
+<p>
+<b>Content:</b>
+  <%=simple_format h(@exposure.content) %>
+</p>
+
+<%if !@exposure.image.nil?%>
+<%=image_tag @exposure.image.id.to_s+'-'+@exposure.image.extension%>
+<%end%>
+
+<%= link_to 'Edit', edit_exposure_path(@exposure) %> |
+<%= link_to 'Back', exposures_path %>
