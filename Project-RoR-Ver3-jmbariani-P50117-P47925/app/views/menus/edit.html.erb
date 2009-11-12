@@ -1,0 +1,26 @@
+<h1>Editing menu</h1>
+
+<% form_for(@menu, @rate) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+ <p>
+    <%= f.label :category_id %><br />
+    <%#= f.text_field :category_id %>
+<%=f.collection_select(:category_id, @categories, :id, :title, :prompt => 'Please Select')%>
+  </p>
+  
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @menu %> |
+<%= link_to 'Back', menus_path %>

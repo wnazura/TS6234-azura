@@ -1,0 +1,16 @@
+<div id="contentlefttop"><%=image_tag "header_outlets.jpg", :border => 0%></div>
+<div id="contentleftcenter" style="padding-left:0px"><%if !@outletdefault.nil? and @outlet.nil?%> <div id="textbox" style="padding-left:18px; padding-bottom:10px"><span class="heading"><%=@outletdefault.title%></span><br /><%=@outletdefault.address%></div><%=image_tag @outletdefault.image.id.to_s+'-'+@outletdefault.image.extension,:border => 0%><%elsif !@outlet.nil?%>
+<div id="textbox" style="padding-left:18px; padding-bottom:10px"><span class="heading"><%=@outlet.title%></span><br /><%=@outlet.address%></div><%=image_tag @outlet.image.id.to_s+'-'+@outlet.image.extension,:border => 0%>
+<%end%>
+</div>
+			<div id="contentleftbottom" style="text-align:right; height:20px"><span class="bhead" style="font-size:20px">JM BARIANI HOUSE CAN BE FOUND AT THESE LOCATIONS</span></div>
+   	  
+			<%@outlets.each do |outlet|%>
+        	<div id="menulist">
+        		<div id="menulistblocks"><%=link_to outlet.title, :action => 'show_outlet', :id => outlet.id%></div>
+        	</div>
+<%end%>
+		
+		</div><!-- Close contentLeft --->
+    	<div id="contentright"><%=image_tag "outlet_pic.jpg", :border => 0%></div>
+

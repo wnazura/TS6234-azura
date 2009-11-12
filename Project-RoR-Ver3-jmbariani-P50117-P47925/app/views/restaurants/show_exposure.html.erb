@@ -1,0 +1,12 @@
+<%=stylesheet_link_tag "styles"%>
+<body>
+
+
+
+
+
+	<span class="heading" style="padding-left:18px"><%=@exposure.media_name%></span>
+    <div id="textbox" style="padding-left:18px; padding-right:18px; float:left"><%if !@exposure.image.nil?%>
+	<%=image_tag @exposure.image.id.to_s+'-'+@exposure.image.extension%>
+	<%end%><span class="heading" style="font-size:15pt"><%=simple_format(@exposure.content)%></div>
+	</div>

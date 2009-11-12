@@ -1,0 +1,25 @@
+<h1>New exposure</h1>
+
+<% form_for(@exposure, :html => { :multipart => true}) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :media_name %><br />
+    <%= f.text_field :media_name %>
+  </p>
+  <p>
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </p>
+  <p>
+<p>
+    <%= f.label :image %><br />
+    <%= file_field_tag :file_data %>
+  </p>
+  
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', exposures_path %>

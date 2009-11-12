@@ -1,0 +1,20 @@
+<h1>Editing rating</h1>
+
+<% form_for(@rating) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :rating %><br />
+    <%= f.text_field :rating %>
+  </p>
+  <p>
+    <%= f.label :menu_id %><br />
+    <%= f.text_field :menu_id %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @rating %> |
+<%= link_to 'Back', ratings_path %>

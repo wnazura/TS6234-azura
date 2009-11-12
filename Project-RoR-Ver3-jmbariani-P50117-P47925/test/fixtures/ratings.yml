@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  rating: 1
+  rateable_type: MyString
+  menu_id: 1
+  ip_address: MyString
+
+two:
+  rating: 1
+  rateable_type: MyString
+  menu_id: 1
+  ip_address: MyString

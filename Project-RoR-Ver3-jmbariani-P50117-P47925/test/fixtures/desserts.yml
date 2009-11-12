@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  dessert_name: MyString
+  img_url: MyString
+
+two:
+  dessert_name: MyString
+  img_url: MyString

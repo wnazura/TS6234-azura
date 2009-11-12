@@ -1,0 +1,33 @@
+<div id="contentlefttop"><%=image_tag "header_menu.jpg", :size => '551x70', :border => 0%></div>
+  		<div id="star-ratings">
+      <%= render :partial => "rating", :locals => { :menu => @menu } %>
+      </div>	    
+<div id="contentleftcenter" style="height:213px; padding-left:0px;">
+			
+			<%if @menu.nil?%>
+       	  	<div id="imageholder"><%=image_tag "nasibarianikambing.jpg", :size => '207x156', :border => 0%></div>
+			    <div id="textbox"><span class="heading">NASI BARIANI KAMBING</span></div>
+			<%else%>
+				<div id="imageholder"><%=image_tag @menu.image.id.to_s+'-'+@menu.image.extension,:border => 0%></div>
+				    <div id="textbox"><span class="heading"><%=@menu.title.upcase%></span></div>
+				    <div id="textbox"><span class="subheading"><%=@menu.description.upcase%></span></div>
+				   
+<%end%>
+		</div>
+		
+		<!-- Close contentLeftCenter -->
+		<div id="contentleftbottom" style="height:20px; text-align:left"><div id="menubhead">FOOD</div><div id="menubhead">DRINKS</div><div id="menubhead" style="width:100px; padding-right:0px">DESSERT</div></div>
+		
+        <!-- Food menu --->
+        	<div id="menufoodblocks"><ul><%@foods.each do |food|%><li><%=link_to food.title, :action => 'show_menu', :id => food.id%></li><%end%></ul>
+        </div>
+		      
+        <!-- Drinks Menu --->
+        	<div id="menudrinkblocks"><ul><%@drinks.each do |drink|%><li><%=link_to drink.title, :action => 'show_menu', :id => drink.id%></li><%end%></ul>
+        </div>
+        
+        
+        <!-- Dessert Menu --->
+        	<div id="menudessertblocks"><ul><%@desserts.each do |dessert|%><li><%=link_to dessert.title, :action => 'show_menu', :id => dessert.id%></li><%end%><ul></div>
+		</div><!-- Close contentLeft -->
+		<div id="contentright"><%=image_tag "menu_cover.jpg", :size => '226x528', :border => 0%></div>

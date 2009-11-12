@@ -1,0 +1,18 @@
+
+	    <div id="contentleftcenter" style="height:213px; padding-left:0px;">
+
+<h1> Search </h1>
+<%if params[:query].empty?%>
+Please Enter Your Search.
+<%else%>
+<%a=0%>
+<%@menus.each do |menu|%>
+<%a+=1%>
+<%=a%>. <%=link_to menu.title, :action => 'show_menu', :id => menu.id%><br/><br/>
+<%end%>
+<%@outlets.each do |outlet|%>
+<%a+=1%>
+<%=a%>. <%=link_to outlet.title, :action => 'show_outlet', :id => outlet.id%><br/><br/>
+
+<%end%>
+<%end%>

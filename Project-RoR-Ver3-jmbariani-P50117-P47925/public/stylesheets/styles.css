@@ -1,0 +1,205 @@
+* {padding:0; margin: 0}
+#mainframe {
+	BORDER-RIGHT: #971b1e 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #971b1e 1px solid; PADDING-LEFT: 9px; PADDING-BOTTOM: 9px; MARGIN-LEFT: auto; BORDER-LEFT: #971b1e 1px solid; WIDTH: 900px; MARGIN-RIGHT: auto; PADDING-TOP: 9px; BORDER-BOTTOM: #971b1e 1px solid; HEIGHT: 600px; TEXT-ALIGN: left
+}
+#header {
+	WIDTH: 900px; BORDER-BOTTOM: #971b1e 3px solid; HEIGHT: 69px; BACKGROUND-COLOR: #fff
+}
+#index {
+	WIDTH: 900px; HEIGHT: 531px; BACKGROUND-COLOR: black
+}
+#contentleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 674px; PADDING-TOP: 0px; HEIGHT: 528px
+}
+#contentlefttop {
+	BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(../images/contentleftheader.jpg); COLOR: black; BACKGROUND-REPEAT: no-repeat; HEIGHT: 70px
+}
+#contentleftcenter {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; BACKGROUND-IMAGE: url(../images/contentleftbg.jpg); PADDING-BOTTOM: 18px; PADDING-TOP: 18px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 283px; BACKGROUND-COLOR: #971b1e
+}
+#menulist {
+	PADDING-LEFT: 18px; FONT-SIZE: 6.5pt; FLOAT: left; WIDTH: 116px; COLOR: #971b1e; PADDING-TOP: 5px
+}
+#menulistblocks {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 6.5pt; FLOAT: left; WIDTH: 112px; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; HEIGHT: 15px; TEXT-ALIGN: left
+}
+#menulistblocks A {
+	DISPLAY: block; FONT-SIZE: 6.5pt; FLOAT: left; WIDTH: 112px; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; HEIGHT: 15px; TEXT-ALIGN: left
+}
+#menulistblocks A:visited {
+	COLOR: white; BACKGROUND-COLOR: #c92f41
+}
+#menulistblocks A:hover {
+	COLOR: white; BACKGROUND-COLOR: #971b1e
+}
+
+
+#menufoodblocks { display: block; float: left; width: 250px; padding: 5px 0 0 14px; }
+#menufoodblocks ul { display: block; }
+#menufoodblocks li{ FONT-SIZE: 6.5pt; FLOAT: left; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; TEXT-ALIGN: left; display: block; width: 125px; overflow: hidden; height: 15px; }
+#menufoodblocks li A { DISPLAY: block; FONT-SIZE: 6.5pt; FLOAT: left; WIDTH: 112px; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; TEXT-ALIGN: left; padding: 2px; }
+#menufoodblocks li A:visited { COLOR: white; BACKGROUND-COLOR: #c92f41}
+#menufoodblocks li A:hover { COLOR: white; BACKGROUND-COLOR: #971b1e}
+
+#menudrinkblocks { display: block; float: left; width: 250px; padding: 5px 0 0 14px; }
+#menudrinkblocks ul { display: block; }
+#menudrinkblocks li{ FONT-SIZE: 6.5pt; FLOAT: left; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; TEXT-ALIGN: left; display: block; width: 125px; overflow: hidden; height: 15px; }
+#menudrinkblocks li A { DISPLAY: block; FONT-SIZE: 6.5pt; FLOAT: left; WIDTH: 112px; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; TEXT-ALIGN: left; padding: 2px; }
+#menudrinkblocks li A:visited { COLOR: white; BACKGROUND-COLOR: #c92f41}
+#menudrinkblocks li A:hover { COLOR: white; BACKGROUND-COLOR: #971b1e}
+
+#menudessertblocks { display: block; float: left; width: 113px; padding: 5px 0 0 10px;}
+#menudessertblocks ul { display: inline; }
+#menudessertblocks li{ PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 6.5pt; FLOAT: left; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; HEIGHT: 15px; TEXT-ALIGN: left; display: block; width: 113px; margin: 0 2px 1px 0; }
+#menudessertblocks li A { DISPLAY: block; FONT-SIZE: 6.5pt; FLOAT: left; WIDTH: 112px; COLOR: #971b1e; BORDER-BOTTOM: white 1px solid; HEIGHT: 15px; TEXT-ALIGN: left; margin: 0 10px 0 0; }
+#menudessertblocks li A:visited {
+	COLOR: white; BACKGROUND-COLOR: #c92f41
+}
+#menudessertblocks li A:hover {
+	COLOR: white; BACKGROUND-COLOR: #971b1e
+}
+
+#contentleftbottom {
+	PADDING-RIGHT: 18px; HEIGHT: 30px; BACKGROUND-COLOR: #971b1e; TEXT-ALIGN: right
+}
+#contentright {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: red; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 226px; PADDING-TOP: 0px; HEIGHT: 528px; TEXT-ALIGN: right
+}
+BODY {
+	BACKGROUND-COLOR: #f9a559; TEXT-ALIGN: center
+}
+HTML {
+	BACKGROUND-COLOR: #f9a559; TEXT-ALIGN: center
+}
+DIV {
+	FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SPAN.bhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 30px; COLOR: white; FONT-FAMILY: "Century Gothic"
+}
+#menubhead { PADDING-RIGHT: 14px; PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 20px; FLOAT: left; WIDTH: 235px; COLOR: white; FONT-FAMILY: "Century Gothic" }
+A:link {
+	COLOR: #971b1e; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: white; BACKGROUND-COLOR: #971b1e; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: white; BACKGROUND-COLOR: #971b1e; TEXT-DECORATION: none
+}
+IFRAME {
+	OVERFLOW-X: hidden
+}
+
+#imageholder {
+		float:left;
+		width:207;
+		height:213px;
+		padding-right:10px;
+		}
+
+	#textbox {
+		margin-top:0px;
+		color:white;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 8pt;
+		text-align:justify;
+		}
+		
+	#outletpic {
+		float: left;
+		height:300px;
+		width:314px;
+		text-align:right;
+		font-size: 8pt;
+		color:white;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		
+	#locmap {
+		float:left;
+		padding-left:28px;
+		text-align:right;
+		font-size: 8pt;
+		color:white;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		
+	#exposurepic {
+		float:left;
+		padding-left:10px;
+		text-align:right;
+		font-size:7pt;
+		color:white;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+	
+	span.heading {
+		font-family: "Century Gothic";
+		font-weight:bold;
+		font-size:28px;
+		color:white;
+		line-height:25px;
+		}
+
+	body, html {
+		margin-top:0px;
+		margin-left:0px;
+		margin-right:0px;
+		scrollbar-base-color:#971B1E;
+		}
+		
+	#thumbfloat {
+		padding-left: 10px;
+		padding-bottom: 10px;
+		float: right;
+		}
+		
+	a:link {
+		color:white;
+		text-decoration:none;
+		}
+	
+	a:visited {
+		color:white;
+		background-color:#971B1E;
+		text-decoration:none;
+		}
+	
+	a:hover {
+		color:white;
+		background-color:#971B1E;
+		}
+		
+	a.mousey {
+		display:block;
+		height:40px;
+		width:104px;
+		background-color:black;
+		color:#fff;
+		text-decoration:none;
+		float:right;
+		}
+		
+	a.mousey:hover {
+		border-bottom: 0px solid red;
+		}
+		
+	a.mousey #pop {
+		display:block;
+		position:absolute;
+		width:1px;
+		height:1px;
+		top:1px;
+		left:1px;
+	}
+	
+	a.mousey:hover #pop {
+		display: block;
+		position:absolute;
+		top:49px;
+		left:0px;
+		height:165px;
+		width:314px;
+		z-index:999;
+	}

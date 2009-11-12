@@ -1,0 +1,22 @@
+<p>
+  <b>Title:</b>
+  <%=h @menu.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @menu.description %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%=h @menu.category_id %>
+</p>
+
+
+<%if !@menu.image.nil?%>
+<%=image_tag @menu.image.id.to_s+'-'+@menu.image.extension%>
+<%end%>
+
+<%= link_to 'Edit', edit_menu_path(@menu) %> |
+<%= link_to 'Back', menus_path %>

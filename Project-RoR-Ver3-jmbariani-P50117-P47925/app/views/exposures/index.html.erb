@@ -1,0 +1,21 @@
+<h1>Listing Exposure</h1>
+
+<table>
+  <tr>
+    <th>Media Name</th>
+    <th>Image</th>
+  </tr>
+
+<% @exposures.each do |exposure| %>
+  <tr>
+    <td><%=h exposure.media_name %></td>
+    <td><%= link_to 'Show', exposure %></td>
+    <td><%= link_to 'Edit', edit_exposure_path(exposure) %></td>
+    <td><%= link_to 'Destroy', exposure, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New exposure', new_exposure_path %>

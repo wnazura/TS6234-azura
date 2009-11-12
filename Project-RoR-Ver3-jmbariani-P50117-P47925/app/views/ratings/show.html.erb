@@ -1,0 +1,15 @@
+<p>
+  <b>Rating:</b>
+  <%=h @rating.rating %>
+</p>
+
+
+<p>
+  <b>Menu:</b>
+  <%=h @rating.menu_id %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_rating_path(@rating) %> |
+<%= link_to 'Back', ratings_path %>

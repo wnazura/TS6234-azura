@@ -1,0 +1,22 @@
+<h1>Listing exposures for <%= params[:search_string] %></h1>
+
+ <% @exposures = Exposure.find_all_by_media_name(params[:search_string]) %>
+
+<table>
+  <tr>
+    <th>Media Name</th>
+    <th>Image</th>
+  </tr>
+
+<% for exposure in @exposures %>
+  <tr>
+    <td><%=h exposure.media_name %></td>
+    <td><%= link_to 'Show', exposure %></td>
+    <td><%= link_to 'Edit', edit_exposure_path(exposure) %></td>
+    <td><%= link_to 'Destroy', exposure, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<td><%= link_to 'Back', exposures_path %></td>
+

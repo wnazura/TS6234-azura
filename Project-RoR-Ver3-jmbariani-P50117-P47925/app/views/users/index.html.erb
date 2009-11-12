@@ -1,0 +1,22 @@
+<h1>Listing Users</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+	<th>Level</th>	
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%=h user.name %></td>
+	<td><%=h user.level %></td>
+	
+    <td><%= link_to 'Edit', :action => 'edit', :id => user.id %></td>
+    <td><%= link_to 'Destroy', {:action => 'delete',:id => user.id},:confirm => 'Are You Sure?' %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New user', :action => 'register' %>

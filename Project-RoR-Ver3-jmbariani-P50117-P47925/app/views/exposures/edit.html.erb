@@ -1,0 +1,20 @@
+<h1>Editing exposures</h1>
+
+<% form_for(@exposure) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :media_name %><br />
+    <%= f.text_field :media_name %>
+  </p>
+  <p>
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </p>  
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @exposure %> |
+<%= link_to 'Back', exposures_path %>

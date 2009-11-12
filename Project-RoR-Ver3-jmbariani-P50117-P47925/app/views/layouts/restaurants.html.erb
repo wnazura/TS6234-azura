@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JM Bariani House</title>
+<%= javascript_include_tag :defaults %>
+	<%= ajaxful_rating_style %>
+<%=stylesheet_link_tag "styles"%>
+<%=stylesheet_link_tag "rating"%>
+<%= javascript_include_tag "prototype" %>
+</head>
+
+<body>
+	<div id="mainframe">
+		<div id="header">
+        	<%=link_to image_tag("nav1.jpg"), :controller => 'restaurants',:action => 'jmbriani'%><%=link_to image_tag("nav2.jpg"),  :controller => 'restaurants',:action => 'menu'%><%=link_to image_tag("nav3.jpg"),  :controller => 'restaurants',:action => 'outlets'%><%=link_to image_tag("nav4.jpg"),  :controller => 'restaurants',:action => 'exposure'%><%=link_to image_tag("nav5.jpg"),  :controller => 'restaurants',:action => 'contact'%><%=link_to image_tag("header.jpg"), :action => 'index'%>
+
+<%form_tag :action => 'search' do%>
+<%=text_field_tag :query, '', :size => 25%>
+<%=submit_tag :Search%>
+<%end%>
+
+			<div id="contentleft">
+
+
+
+	
+<%=yield%>
+<br />
+<p style="color: yellow"><%= flash[:notice] %></p>
+</div>
+</body>
+</html>
