@@ -1,0 +1,5 @@
+<owl:Class rdf:ID="Rootkit">
+    <rdfs:subClassOf>
+   	<owl:Class rdf:about="#Malicious code"/>
+    </rdfs:subClassOf>
+</owl:Class>

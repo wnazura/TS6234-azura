@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.8.13)  11 OCT 2009 16:42
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.8.13)  6 NOV 2009 19:42
 entering extended mode
 **latex_P47925.tex
 (latex_P47925.tex
@@ -115,7 +115,10 @@ File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(latex_P47925.aux)
+("C:\Program Files\MiKTeX 2.7\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (latex_P47925.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 347.
 LaTeX Font Info:    ... okay on input line 347.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 347.
@@ -128,7 +131,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 347.
 LaTeX Font Info:    ... okay on input line 347.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 347.
 LaTeX Font Info:    ... okay on input line 347.
- ("C:\Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
+
+("C:\Program Files\MiKTeX 2.7\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
 \scratchdimen=\dimen119
@@ -250,39 +254,92 @@ File: IS-sources.jpg Graphic file (type jpg)
 <fire-threat.jpg, id=15, 605.26125pt x 236.38312pt>
 File: fire-threat.jpg Graphic file (type jpg)
  <use fire-threat.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 524--528
+Underfull \hbox (badness 10000) in paragraph at lines 524--530
 
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 524--528
+Underfull \hbox (badness 3657) in paragraph at lines 524--530
 \OT1/ptm/m/n/10 A few ex-am-ples of the ap-pli-ca-tions of In-for-ma-tion
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 524--528
+Underfull \hbox (badness 2368) in paragraph at lines 524--530
 \OT1/ptm/m/n/10 con-trols to pro-vide cus-tomised and fo-cused so-lu-tions
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 524--528
+Underfull \hbox (badness 1584) in paragraph at lines 524--530
 \OT1/ptm/m/n/10 a broad area of in-for-ma-tion se-cu-rity risk as-sess-ment.
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 524--528
+Underfull \hbox (badness 1558) in paragraph at lines 524--530
 \OT1/ptm/m/n/10 the vul-ner-a-bil-ity on-tol-ogy in [8]. [9] com-pre-hen-sively
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--530
+
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 524--530
+\OT1/ptm/m/n/10 To fur-ther il-lus-trate the use of an on-tol-ogy for the
  []
 
 [3 <IS-sources.jpg> <fire-threat.jpg>]
 <ovm.jpg, id=19, 575.14874pt x 456.95718pt>
 File: ovm.jpg Graphic file (type jpg)
  <use ovm.jpg>
-<DiagraphISOntology.jpg, id=20, 610.53094pt x 398.99063pt>
+<owl.jpg, id=20, 293.59688pt x 54.9553pt>
+File: owl.jpg Graphic file (type jpg)
+ <use owl.jpg>
+Underfull \hbox (badness 1406) in paragraph at lines 553--556
+\OT1/ptm/m/n/10 il-lus-trated in Fig-ure 7, on-tol-ogy is closely re-lated to
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 553--556
+\OT1/ptm/m/n/10 sub-ontology, threats sub-ontology and risks on-tol-ogy.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--556
+
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 553--556
+\OT1/ptm/m/n/10 rea-son-ing out-side the spec-i-fied con-text. Sec-ondly, the
+ []
+
+<DiagraphISOntology.jpg, id=21, 610.53094pt x 398.99063pt>
 File: DiagraphISOntology.jpg Graphic file (type jpg)
 
-<use DiagraphISOntology.jpg> [4 <ovm.jpg> <DiagraphISOntology.jpg>]
+<use DiagraphISOntology.jpg> [4 <ovm.jpg> <owl.jpg> <DiagraphISOntology.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 736.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 736.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 736.
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--737
+\OT1/ptm/m/n/9 2005. $http : / / www-[]users . cs . york . ac . uk / []aservin 
+/ docs / attacks[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--749
+[]\OT1/ptm/m/it/9 Definition of Dis-as-ter Re-cov-ery\OT1/ptm/m/n/9 , About.com
+. $http : / /
+ []
+
+[5]
+Missing character: There is no ’ in font ptmr7t!
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -294,23 +351,108 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] (latex_P47925.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 754--802
+\OT1/ptm/m/n/10 Incident Han-dling is an ac-tion plan for deal-ing with
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 754--802
+\OT1/ptm/m/n/10 step pro-cess: Prepa-ra-tion, Iden-ti-fi-ca-tion, Con-tain-ment
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 754--802
+\OT1/ptm/m/n/10 in-for-ma-tion. It is all about pro-tect-ing and pre-serv-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--802
+
+ []
+
+[6] (latex_P47925.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1667 strings out of 95304
- 25525 string characters out of 1183070
- 81462 words of memory out of 1500000
- 4903 multiletter control sequences out of 110000
- 37529 words of font info for 67 fonts, out of 3000000 for 5000
+ 1765 strings out of 95304
+ 26615 string characters out of 1183070
+ 83403 words of memory out of 1500000
+ 4991 multiletter control sequences out of 110000
+ 39352 words of font info for 73 fonts, out of 3000000 for 5000
  17 hyphenation exceptions out of 8191
- 26i,8n,21p,1571b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.7/fonts/enc/dvips/fontname/8
-r.enc}<C:/Program Files/MiKTeX 2.7/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Prog
-ram Files/MiKTeX 2.7/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 
-2.7/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on latex_P47925.pdf (5 pages, 289323 bytes).
+ 26i,8n,21p,1571b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.7/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.7/fonts/type1/bluesky/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.7/font
+s/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/urw/times/utmr8a.pfb><C
+:/Program Files/MiKTeX 2.7/fonts/type1/urw/times/utmri8a.pfb>
+Output written on latex_P47925.pdf (6 pages, 304425 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

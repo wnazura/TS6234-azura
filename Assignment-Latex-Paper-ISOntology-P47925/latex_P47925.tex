@@ -322,7 +322,7 @@
 
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 %
-%\usepackage{url}
+\usepackage{url}
 % url.sty was written by Donald Arseneau. It provides better support for
 % handling and breaking URLs. url.sty is already installed on most LaTeX
 % systems. The latest version can be obtained at:
@@ -348,7 +348,7 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{A Review of Information Security Ontology}
+\title{Information Security Ontology for Dummies}
 
 
 % author names and affiliations
@@ -525,6 +525,8 @@ As mentioned previously, Information Security Ontology has many uses in its doma
 \\
 \\
 A few examples of the applications of Information Security Ontology are as follows. In [5], the Security Ontology is used together with a database of technical controls to provide customised and focused solutions in a technical level which addresses the given security requirements of a system. [5] also refers to the conceptual information model known as the Common Information Model (CIM) in their work as the model can be mapped to structured specifications such as OWL. Information Security knowledge in the area of risk management is formalized in [6] through the use of an Information Security Ontology. As stated in [6], the ontology has been found to support a broad area of information security risk assessment. Figure 4 conceptually shows an example of the ontology from [6] applied in the risk management of a fire threat. In [8], the Information Security Ontology is applied in vulnerability analysis and management. The ontology in [8] represents knowledge for vulnerability classifications and vulnerability metrics and in a formal and structured form. As stated in [8], the ontology also enables the building of automated tools for system security. Figure 5 illustrates the vulnerability ontology in [8]. [9] comprehensively discussed the applications of their Information Security Ontology which can be used as online learning content, as a knowledge base for rule-based reasoning with semantic web applications, as a framework for further extensions and lastly as a framework to compare security products, attacks and vulnerabilities.
+\\ \\
+To further illustrate the use of an ontology for the domain of Information Security, Figure 6 as shown above is an example in the Appendix of the OWL code for the term or class known as "Rootkit" which is a form of or a sub-class of "Malicious code".
 
 \begin{figure}[!t]
 \centering
@@ -536,8 +538,21 @@ A few examples of the applications of Information Security Ontology are as follo
 \label{ovm}
 \end{figure}
 
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=3.0in]{owl}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+\caption{Example of the OWL code for Rootkit}
+\label{owl}
+\end{figure}
+
 \subsection{Significance of Information Security Ontology}
-Why is Information Security Ontology important? As illustrated in Figure 6, ontology is closely related to technologies such as Extensible Markup Language (XML), Semantic Web and Metadata. XML is markup language with semantics which is used to add more meaning to data. Semantic Web uses XML to create better and intelligent search engines. Metadata is meaningful data that is used to describe data, as used in ontologies. Figure 6 also shows the relationship between the Information Security Ontology and its sub-ontologies such as the vulnerabilities sub-ontology, threats sub-ontology and risks ontology. These sub-ontologies have specific uses in the area of incident handling, disaster recovery and risk assessment. Thus, Information Security Ontology in relation to the related technologies, has significant contribution to the domain of Information Security in the aspects of meaning, understanding and learning of the terms, concepts, principles and practices of Information Security. 
+Why is Information Security Ontology important? As illustrated in Figure 7, ontology is closely related to technologies such as Extensible Markup Language (XML), Semantic Web and Metadata. XML is markup language with semantics which is used to add more meaning to data. Semantic Web uses XML to create better and intelligent search engines. Metadata is meaningful data that is used to describe data, as used in ontologies. Figure 6 also shows the relationship between the Information Security Ontology and its sub-ontologies such as the vulnerabilities sub-ontology, threats sub-ontology and risks ontology. These sub-ontologies have specific uses in the area of incident handling, disaster recovery and risk assessment. Thus, Information Security Ontology in relation to the related technologies, has significant contribution to the domain of Information Security in the aspects of meaning, understanding and learning of the terms, concepts, principles and practices of Information Security.
+\\ \\
+What does an ontology have to offer that XML have not already offered? First and foremost, an ontology is different from an XML schema in that it is a knowledge representation, not a message format. The specification offered by an XML schema is not designed to support reasoning outside the specified context. Secondly, the advantage of using an ontology is that there are many tools available to reason the ontology. These tools provide generic support that is not specific to a particular subject domain, as opposed to building an XML-based system to reason a specific industry.
 
 \begin{figure}[!t]
 \centering
@@ -643,7 +658,7 @@ This review paper is submitted as partial requirement for the TS6234 course unde
 % number - used to balance the columns on the last page
 % adjust value as needed - may need to be readjusted if
 % the document is modified later
-\IEEEtriggeratref{7}
+%\IEEEtriggeratref{7}
 % The "triggered" command can be changed if desired:
 %\IEEEtriggercmd{\enlargethispage{-5in}}
 
@@ -714,8 +729,75 @@ Gruber, T.R., \emph{Toward Principles for the Design of Ontologies Used for Know
 \bibitem{IEEEhowto:donner2003toward}
 Donner, M., \emph{Toward a Security Ontology}, pp. 6--7.\hskip 1em plus
   0.5em minus 0.4em\relax IEEE Security and Privacy Magazine, 2003.
+
+
+\bibitem{IEEEhowto:york}
+\emph{Security Attacks and Intrusion Detection}, University of York, 2005.
+\url{http://www-users.cs.york.ac.uk/~aservin/docs/attacks_ids.pdf}
+
+\bibitem{IEEEhowto:sans}
+\emph{Glossary of Terms Used in Security and Intrusion Detection}, The SANS Institute.
+\url{http://www.sans.org/security-resources/glossary.php}
+
+\bibitem{IEEEhowto:praxiom}
+\emph{Security Management Definitions}, Praxiom Research Group Limited.
+\url{http://www.praxiom.com/iso-27001-definitions.htm}
+
+\bibitem{IEEEhowto:about}
+\emph{Definition of Disaster Recovery}, About.com.
+\url{http://operationstech.about.com/od/glossary/g/GlsDisastRecovy.htm}
+
 \end{thebibliography}
 
+\newpage
+\section*{Appendix}
+\textbf {Glossary}\\ \\
+\textbf{Attack}\\
+An attack is the exploit of vulnerabilities on a system by a human or program.
+\\ \\
+\textbf{Cryptography} \\
+Cryptographic transformation of data (called "plaintext") into a form (called "cipher text") that conceals the data's original meaning to prevent it from being known or used.
+\\ \\
+\textbf{Denial of service}\\
+The prevention of authorized access to a system resource or the delaying of system operations and functions.
+\\ \\
+\textbf{Disaster recovery}\\
+Disaster recovery is the process in which a business or organization implements a disaster recovery plan that allows it to continue to function after a catastrophic event.
+\\ \\
+\textbf{Encryption}\\
+Encryption is the conversion of data into a form, called a ciphertext, that cannot be easily understood by unauthorized people.
+\\ \\
+\textbf{Incident Handling}\\
+Incident Handling is an action plan for dealing with intrusions, cyber-theft, denial of service, fire, floods, and other security-related events. It is comprised of a six step process: Preparation, Identification, Containment, Eradication, Recovery, and Lessons Learned.
+\\ \\
+\textbf{Information security}\\
+Information security is all about protecting and preserving
+information. It is all about protecting and preserving the
+confidentiality, integrity, authenticity, availability, and
+reliability of information.
+\\ \\
+\textbf{Malicious code}\\
+Software (e.g., Trojan horse) that appears to perform a useful or desirable function, but actually gains unauthorized access to system resources or tricks a user into executing other malicious logic.
+\\ \\
+\textbf{Risk assessment}\\
+A Risk Assessment is the process by which risks are identified and the impact of those risks determined.
+\\ \\
+\textbf{Rootkit}\\
+A collection of tools (programs) that a hacker uses to mask intrusion and obtain administrator-level access to a computer or computer network. 
+\\ \\
+\textbf{Threat}\\
+A threat is a potential event. When a threat turns into
+an actual event, it may cause an unwanted incident.
+It is unwanted because the incident may harm an
+organization or system.
+\\ \\
+\textbf{Virus}\\
+A hidden, self-replicating section of computer software, usually malicious logic, that propagates by infecting - i.e., inserting a copy of itself into and becoming part of - another program. A virus cannot run by itself; it requires that its host program be run to make the virus active.
+\\ \\
+\textbf{Vulnerability}\\
+A vulnerability is a weakness in an asset or group
+of assets. An asset’s weakness could allow it to be
+exploited and harmed by one or more threats. 
 % that's all folks
 \end{document}
 
